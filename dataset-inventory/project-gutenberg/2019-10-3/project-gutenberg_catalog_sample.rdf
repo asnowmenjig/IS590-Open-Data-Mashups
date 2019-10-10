@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY pg  "Project Gutenberg">
+  <!ENTITY lic "http://www.gutenberg.org/license">
+  <!ENTITY f   "http://www.gutenberg.org/">
+]>
+
+<!-- 
+
+The Project Gutenberg Catalog in RDF/XML Format
+
+  Copyright (C) 2004-present by 
+
+  Project Gutenberg Literary Archive Foundation
+  4557 Melan Drive S.
+  Fairbanks AK 99712
+  U.S.A.
+
+
+LICENSE TERMS
+
+
+This file ("work") is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License (GPL)
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This work is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+Please become familiar with the GNU GPL before using this file.
+
+You can get a full copy of the GNU General Public License online at:
+
+  http://www.gnu.org/licenses/gpl.html
+
+The GNU General Public License is explained in human language at:
+
+  http://creativecommons.org/licenses/GPL/2.0/
+
+If you are uncertain about the terms of the license or whether your
+intended use is legitimate, please email gbnewby@pglaf.org for
+clarification.
+
+Thank you for your interest in Project Gutenberg.  For more
+information about Project Gutenberg and its goals, visit
+the Official Project Gutenberg Web site at 
+
+  http://www.gutenberg.org
+
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:pgterms="http://www.gutenberg.org/rdfterms/"
+    xml:base="http://www.gutenberg.org/feeds/catalog.rdf">
+    
+    <cc:Work rdf:about="">
+        <cc:license  rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+    </cc:Work>
+    
+    <cc:License rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits  rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits  rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:permits  rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+        <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode" />
+    </cc:License>
+    
+    <rdf:Description rdf:about="">
+        <dc:created><dcterms:W3CDTF><rdf:value>2014-04-15</rdf:value></dcterms:W3CDTF></dc:created>
+    </rdf:Description>
+    
+    <pgterms:etext rdf:ID="etext37615">
+        <dc:publisher>&pg;</dc:publisher>
+        <dc:title rdf:parseType="Literal">Ocean to Ocean on Horseback
+            Being the Story of a Tour in the Saddle from the Atlantic
+            to the Pacific; with Especial Reference to the Early History
+            and Devel</dc:title>
+        <dc:creator rdf:parseType="Literal">Glazier, Willard W., 1841-1905</dc:creator>
+        <pgterms:friendlytitle rdf:parseType="Literal">Ocean to Ocean on Horseback by Willard W. Glazier</pgterms:friendlytitle>
+        <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
+        <dc:created><dcterms:W3CDTF><rdf:value>2011-10-04</rdf:value></dcterms:W3CDTF></dc:created>
+        <pgterms:downloads><xsd:nonNegativeInteger><rdf:value>105</rdf:value></xsd:nonNegativeInteger></pgterms:downloads>
+        <dc:rights rdf:resource="&lic;" />
+    </pgterms:etext>
+    
+    <pgterms:etext rdf:ID="etext36924">
+        <dc:publisher>&pg;</dc:publisher>
+        <dc:title rdf:parseType="Literal">The Letters of Amerigo Vespucci
+            and other documents illustrative of his career</dc:title>
+        <dc:creator>
+            <rdf:Bag>
+                <rdf:li rdf:parseType="Literal">Columbus, Christopher, 1451-1506</rdf:li>
+                <rdf:li rdf:parseType="Literal">Casas, Bartolomé de las, 1474-1566</rdf:li>
+                <rdf:li rdf:parseType="Literal">Vespucci, Amerigo</rdf:li>
+            </rdf:Bag>
+        </dc:creator>
+        <dc:contributor rdf:parseType="Literal">Markham, Clements R. (Clements Robert), Sir, 1830-1916 [Translator]</dc:contributor>
+        <pgterms:friendlytitle rdf:parseType="Literal">The Letters of Amerigo Vespucci by Casas</pgterms:friendlytitle>
+        <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
+        <dc:created><dcterms:W3CDTF><rdf:value>2011-07-31</rdf:value></dcterms:W3CDTF></dc:created>
+        <pgterms:downloads><xsd:nonNegativeInteger><rdf:value>114</rdf:value></xsd:nonNegativeInteger></pgterms:downloads>
+        <dc:rights rdf:resource="&lic;" />
+    </pgterms:etext>
+    
+    <pgterms:etext rdf:ID="etext11708">
+        <dc:publisher>&pg;</dc:publisher>
+        <dc:title rdf:parseType="Literal">Abraham Lincoln, a History — Volume 02</dc:title>
+        <dc:creator>
+            <rdf:Bag>
+                <rdf:li rdf:parseType="Literal">Nicolay, John G. (John George), 1832-1901</rdf:li>
+                <rdf:li rdf:parseType="Literal">Hay, John, 1838-1905</rdf:li>
+            </rdf:Bag>
+        </dc:creator>
+        <pgterms:friendlytitle rdf:parseType="Literal">Abraham Lincoln, a History — Volume 02 by Hay</pgterms:friendlytitle>
+        <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
+        <dc:subject>
+            <rdf:Bag>
+                <rdf:li><dcterms:LCSH><rdf:value>United States -- History -- Civil War, 1861-1865</rdf:value></dcterms:LCSH></rdf:li>
+                <rdf:li><dcterms:LCSH><rdf:value>Lincoln, Abraham, 1809-1865</rdf:value></dcterms:LCSH></rdf:li>
+                <rdf:li><dcterms:LCSH><rdf:value>Presidents -- United States -- Biography</rdf:value></dcterms:LCSH></rdf:li>
+            </rdf:Bag>
+        </dc:subject>
+        <dc:subject><dcterms:LCC><rdf:value>E456</rdf:value></dcterms:LCC></dc:subject>
+        <dc:created><dcterms:W3CDTF><rdf:value>2004-03-01</rdf:value></dcterms:W3CDTF></dc:created>
+        <pgterms:downloads><xsd:nonNegativeInteger><rdf:value>60</rdf:value></xsd:nonNegativeInteger></pgterms:downloads>
+        <dc:rights rdf:resource="&lic;" />
+    </pgterms:etext>
+    
+</rdf:RDF>
