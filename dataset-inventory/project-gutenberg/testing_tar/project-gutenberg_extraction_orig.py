@@ -33,16 +33,16 @@ print(len(authors_list))
 
 dud_authors = []
 
-### writing to CSV file ###
-
-import csv
-
-with open("project-gutenberg_dataset.csv", 'w', newline = '', encoding = "UTF-8") as outfile_csv:
-    filewriter = csv.writer(outfile_csv)
-    for author in authors_list:
-        filewriter.writerow([author])
-
-print("Written to CSV!")
-
-outfile_csv.close()
-print("Success: file closed!")
+# ### writing to CSV file ###
+#
+# import csv
+#
+# with open("project-gutenberg_dataset.csv", 'w', newline = '', encoding = "UTF-8") as outfile_csv:
+#     filewriter = csv.writer(outfile_csv)
+#     for author in authors_list:
+#         filewriter.writerow([author])
+#
+# print("Written to CSV!")
+#
+# outfile_csv.close()
+# print("Success: file closed!")
