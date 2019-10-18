@@ -1,10 +1,12 @@
 import json
 
-infile = open('estc_for-parsing', 'r', encoding = 'utf-8')
+infile = open('estc_for-parsing.json', 'rb')
 data = json.load(infile)
 infile.close()
 
 author_dictionary = {}
+
+print('building author_dictionary')
 
 for record in data:
     if 'author' in record:
@@ -19,9 +21,11 @@ for record in data:
 
 # print(author_dictionary)
 
+print("writing to csv")
+
 import csv
 
-outfile = open('estc_dataset.csv', 'w', newline = '')
+outfile = open('estc_dataset.csv', 'w', encoding = 'utf-8', newline = '')
 csvout = csv.writer(outfile)
 csvout.writerow(['author', 'count'])
 
@@ -30,3 +34,6 @@ for pair in author_dictionary.items():
     count = pair[1]
     row = [label, count]
     csvout.writerow(row)
+
+outfile.close()
+print("Success: data written and file closed!")
