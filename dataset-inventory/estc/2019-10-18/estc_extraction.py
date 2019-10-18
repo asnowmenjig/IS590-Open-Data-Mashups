@@ -1,6 +1,6 @@
 import json
 
-infile = open('estc_sample.json', 'r', encoding = 'utf-8')
+infile = open('estc_for-parsing', 'r', encoding = 'utf-8')
 data = json.load(infile)
 infile.close()
 
@@ -17,9 +17,7 @@ for record in data:
     else:
         author_dictionary[author_name] = 1
 
-print(author_dictionary)
-
-
+# print(author_dictionary)
 
 import csv
 
