@@ -9,11 +9,28 @@ deathdate_list = []
 
 file_counter = 1
 
-#pg1.rdf = pg1041.rdf = 1 author
-#pg2.rdf = pg37942.rdf = 2 authors
 
-
-while file_counter < 1001:
+while file_counter < 5:                         #change to 60453
+    if file_counter == 1691:
+        file_counter = file_counter + 1
+    elif file_counter == 28520:
+        file_counter = file_counter + 1
+    elif file_counter == 30254:
+        file_counter = file_counter + 1
+    elif file_counter == 30360:
+        file_counter = file_counter + 1
+    elif file_counter == 36169:
+        file_counter = file_counter + 1
+    elif file_counter == 58783:
+        file_counter = file_counter + 1
+    elif file_counter == 59328:
+        file_counter = file_counter + 1
+    elif file_counter == 59665:
+        file_counter = file_counter + 1
+    elif file_counter == 59705:
+        file_counter = file_counter + 1
+    elif file_counter == 60001:
+        file_counter = file_counter + 1
     # print('pg'+str(file_counter)+'.rdf')
     with open('pg'+str(file_counter)+'.rdf', 'rb') as xmlin:
         text = xmlin.read()
@@ -43,8 +60,6 @@ print("Authors list created!")
 print('authors_list = ' + str(len(authors_list)))
 print('birthdate_list = ' + str(len(birthdate_list)))
 print('deathdate_list = ' + str(len(deathdate_list)))
-
-
 
 
 ### writing to CSV file ###
