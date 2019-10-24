@@ -34,7 +34,7 @@ dataset-inventory
   - DO-NOT-EDIT: contains original data files at different stages of processing/cleaning
     - raw.xlsx = data at the point of original extraction
     - combined.xlsx = raw data combined into necessary columns (author name, birthdate, deathdate, and count)
-    - cleaned.xlsx = counts consolidated using OpenRefine
+    - cleaned.xlsx = counts consolidated using OpenRefine, character encoding errors fixed manually
     - standard_1 = first stage of standardization process (manually standardize column names)
     - standard_2 = second stage of standardization process (first round of splitting column information using Excel “text to columns” feature)
     - standard_3 = third stage of standardization process (manually clean records and cells)
