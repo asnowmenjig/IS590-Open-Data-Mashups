@@ -13,6 +13,6 @@ Results: 95,552
 
 
 FRACTION_TOTAL value:
-Calculated by adding together all values counts column, then dividing each author count value by the total. Value represents the fractional value before conversion to percentage (i.e. 0.5 = 50%, not 0.5%)
+Calculated by dividing each author count value by the total number of records (95,552). Value represents the fractional value before conversion to percentage (i.e. 0.5 = 50%, not 0.5%)
 
-total = 55,115
+total = 95,552
