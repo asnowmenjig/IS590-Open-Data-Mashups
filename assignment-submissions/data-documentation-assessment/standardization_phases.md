@@ -72,10 +72,12 @@ Manually clean records and cells
     | de Mornay |  Philippe  | 1549      | 1623      |
 
 - Cleaning standards for names:
+  - For mononymous individuals, place mononym in first_name column
   - For names without surnames, use title (“Saint of”, “Prince of”, “King of”, “of Garland”, etc.) in last_name column
+  - For institutions, place full name of institution in first_name column and leave last_name column blank
   - For surnames with nobiliary particles (“de”, “di”, “von”, etc.), put particle at the beginning of last_name column
     - e.g. “Philippe de Mornay” = “de Mornay, Philippe”
-  - For records with *floruit* (fl.) instead of birthdate, use numerical *floruit* value only
+  - For records with *floruit* (fl.) range instead of birthdate/deathdate, put date range in birthdate column and keep "fl."
   - For records with approximate dates (“ca.”,
     “approximately”, “active”), use numerical date only
   - For records from B.C.E., keep “B.C.” in
