@@ -18,13 +18,13 @@
 
 
 # open text
-infile = open('OTA_edited.txt','r', encoding='utf-8')
+infile = open('OTA_edited.txt','r', encoding='utf-8')           #import data and close infile
 text = str(infile.read())
 infile.close()
 print("Success: opened, read, and closed text!")
 #
 # split into lines
-lines_list = text.split('\n')
+lines_list = text.split('\n')                                   #split full
 print("Success: split into lines!")
 #
 
