@@ -27,7 +27,7 @@ This data was extracted from the English Short Title Catalog collection in the H
 
 The HathiTrust collection description states that the works in the collection were "published between 1473 and 1800 mainly, but not exclusively, in English in the British Isles and North America." The collection contains 10,474 items. Of these items, 3 are not available for full-text searching.
 
-The metadata used to create this dataset can be found in the file **english-short-title-catalog.json**.
+The metadata used to create this dataset can be found in the file **english-short-title-catalog_DO-NOT-EDIT.json**.
 
 ### Contents:
 
@@ -46,7 +46,9 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
 2. Download metadata ("Linked Data (JSON)")
 
-3. Using Python, extract author names and take count of repeated citations. Write results to CSV file.
+3. Remove first object (containing administrative information of the file itself, "id": "https://babel.hathitrust.org/cgi/mb?a=listis;c=") from array and save as **estc_for-parsing.json**.
+
+4. Using Python, extract author names and take count of repeated citations. Write results to CSV file.
 
    **Program file:** estc_extraction.py
 
