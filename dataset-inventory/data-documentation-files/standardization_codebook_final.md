@@ -1,4 +1,4 @@
-#### DATA CODEBOOK FOR FILES WITH TEMPLATE: name_dataset_final_2.csv
+#### DATA CODEBOOK FOR FILES WITH TEMPLATE: name_dataset_final_3.csv OR name_dataset_final_4.csv
 
 
 
@@ -50,6 +50,8 @@
 
 **REASON FOR MISSING VALUES:** no dates listed in data source
 
+- Missing value = "not_applicable"
+
 **KNOWN MISSING VALUES:** TBD
 
 
@@ -62,7 +64,7 @@
 
 **REASON FOR MISSING VALUES:** no dates listed in data source
 
-
+- Missing value = "not_applicable"
 
 **KNOWN MISSING VALUES:** TBD
 
