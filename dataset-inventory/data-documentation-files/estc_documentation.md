@@ -1,24 +1,5 @@
 # DATASET NAME: English Short Title Catalogue (ESTC)
 
-## DATA CLEANING ASSESSMENT
-
-### Required programs/processes:
-
-- Python
-- OpenRefine
-- Excel "text to column" feature
-- Hand editing
-
-### Time:
-
-8 hours?
-
-### Cleaning Process: 
-
-1. Using OpenRefine, consolidate author multiples to get list of unique authors and their total counts.
-2. Hand edit encoding errors for characters with diacritic marks. Hand edit records containing multiple author names - split out into individual records. Consolidate author multiples again.
-3. Follow standardization process (documentation: standardization_phases.md)
-
 ## DATA DOCUMENTATION
 
 ### Provenance:
@@ -40,7 +21,9 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
 **Collection date:** September 15, 2019
 
-### Collection Process:
+
+
+## Collection Process:
 
 1. Navigate to dataset source: <https://babel.hathitrust.org/cgi/mb?a=listis&c=247770968>
 
@@ -54,7 +37,34 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
    **Product:** estc_dataset.csv
 
-### Data Structure:
+
+
+## DATA CLEANING ASSESSMENT
+
+### Required programs/processes:
+
+- Python
+- OpenRefine
+- Excel "text to column" feature
+- Hand editing
+
+### Time:
+
+8 hours?
+
+### Cleaning Process: 
+
+1. Using OpenRefine, consolidate author multiples to get list of unique authors and their total counts.
+
+2. Hand edit encoding errors for characters with diacritic marks. Hand edit records containing multiple author names - split out into individual records. Consolidate author multiples again.
+
+3. Follow standardization process (documentation: **standardization_phases.md**)
+
+   **Product:** estc_dataset_cleaned.xlsx
+
+
+
+## Data Structure:
 
 **Data formats:** xlsx, csv
 
