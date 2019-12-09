@@ -63,7 +63,7 @@ This file contains author attribution data ("Author" and "Count) extracted from 
 
 3. Follow standardization process (documentation: **standardization_phases.md**)
 
-4. **Product:** eebo_dataset_cleaned.xlsx
+   **Product:** eebo_dataset_cleaned.xlsx
 
 
 
@@ -82,7 +82,7 @@ This file contains author attribution data ("Author" and "Count) extracted from 
 
 ### Codebook
 
-See **standardization_codebook.md**
+See **standardization_codebook_final.md**
 
 
 
