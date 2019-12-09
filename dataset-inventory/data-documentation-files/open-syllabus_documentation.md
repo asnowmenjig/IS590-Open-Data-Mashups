@@ -1,21 +1,5 @@
 # DATASET NAME: Open Syllabus Project
 
-## DATA CLEANING ASSESSMENT
-
-### Required programs/processes:
-
-- XPATH Helper
-- Excel "text to column" feature
-- Hand editing
-
-### Time:
-
-2 hours?
-
-### Cleaning Process: 
-
-1. Follow standardization process (documentation: **standardization_phases.md**)
-
 ## DATA DOCUMENTATION
 
 ### Provenance:
@@ -35,7 +19,9 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
 **Collection date:** September 15, 2019
 
-### Collection Process:
+
+
+## Collection Process:
 
 1. View Explorer and filter by "Authors" and "Field = English Literature". Set list view to 5000.
 
@@ -45,7 +31,27 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
    **Products:** open-syllabus_dataset.xlsx
 
-### Data Structure:
+
+
+## DATA CLEANING ASSESSMENT
+
+### Required programs/processes:
+
+- XPATH Helper
+- Excel "text to column" feature
+- Hand editing
+
+### Time:
+
+2 hours?
+
+### Cleaning Process: 
+
+1. Follow standardization process (documentation: **standardization_phases.md**)
+
+
+
+## Data Structure:
 
 **Data formats:** xlsx
 

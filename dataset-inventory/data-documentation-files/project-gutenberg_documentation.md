@@ -1,25 +1,5 @@
 # DATASET NAME: Project Gutenberg
 
-## DATA CLEANING ASSESSMENT
-
-### Required programs/processes:
-
-- Python
-- OpenRefine
-- Excel "text to column" feature
-- Hand editing
-
-### Time:
-
-8 hours?
-
-### Cleaning Process: 
-
-1. Using OpenRefine, consolidate author multiples to get list of unique authors and their total counts.
-2. Hand edit encoding errors for characters with diacritic marks.
-3. Follow standardization process (documentation:
-   **standardization_phases.md**)
-
 ## DATA DOCUMENTATION
 
 ### Provenance:
@@ -37,7 +17,9 @@ This file contains author attribution data extracted from the Project Gutenberg 
 
 **Collection date:** October 8, 2019
 
-### Collection Process:
+
+
+## Collection Process:
 
 1. Navigate to <http://gutenberg.readingroo.ms/cache/generated/feeds/> and download the TAR archive (**rdf-files.tar.zip**)
 
@@ -47,7 +29,30 @@ This file contains author attribution data extracted from the Project Gutenberg 
 
    **Product:** project-gutenberg-2_dataset.csv
 
-### Data Structure:
+
+
+## DATA CLEANING ASSESSMENT
+
+### Required programs/processes:
+
+- Python
+- OpenRefine
+- Excel "text to column" feature
+- Hand editing
+
+### Time:
+
+8 hours?
+
+### Cleaning Process: 
+
+1. Using OpenRefine, consolidate author multiples to get list of unique authors and their total counts.
+2. Hand edit encoding errors for characters with diacritic marks.
+3. Follow standardization process (documentation: **standardization_phases.md**)
+
+
+
+## Data Structure:
 
 **Data formats:** xlsx, csv
 

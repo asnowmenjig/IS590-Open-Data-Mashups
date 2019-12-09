@@ -1,25 +1,5 @@
 # DATASET NAME: Oxford Text Archive (OTA)
 
-## DATA CLEANING ASSESSMENT
-
-### Required programs/processes:
-
-- XPATH
-- OpenRefine
-- Excel "text to column" feature
-- Hand editing
-
-### Time:
-
-4 hours?
-
-### Cleaning Process: 
-
-1. Split records where multiple authors are included in one line (locate by searching for split string, ";") and hand-edit encoding errors for characters with diacritic marks.
-2. Create **count** column and assign count value of 1 to each record.
-3. Using OpenRefine, consolidate author multiples to get list of unique authors and their total counts.
-4. Follow standardization process (documentation: **standardization_phases.md**) for the top 31 most-cited authors.
-
 ## DATA DOCUMENTATION
 
 ### Provenance:
@@ -39,7 +19,9 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
 **Collection date:** September 15, 2019
 
-### Collection Process:
+
+
+## Collection Process:
 
 1. View page source of catalog (<https://ota.ox.ac.uk/catalogue/index.html>) and download as HTML.
 
@@ -53,7 +35,32 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
    **Products:** ota_authors_dataset.xlsx
 
-### Data Structure:
+
+
+## DATA CLEANING ASSESSMENT
+
+### Required programs/processes:
+
+- XPATH
+- OpenRefine
+- Excel "text to column" feature
+- Hand editing
+
+### Time:
+
+4 hours?
+
+### Cleaning Process: 
+
+1. Split records where multiple authors are included in one line (locate by searching for split string, ";") and hand-edit encoding errors for characters with diacritic marks.
+2. Create **count** column and assign count value of 1 to each record.
+3. Using OpenRefine, consolidate author multiples to get list of unique authors and their total counts.
+4. Hand-edit top 31 most cited-authors (top 5%).
+5. Follow standardization process (documentation: **standardization_phases.md**).
+
+
+
+## Data Structure:
 
 **Data formats:** xlsx, csv
 
@@ -69,3 +76,4 @@ This file contains author attribution data ("Author" and "Count") extracted from
 ### Codebook
 
 See **standardization_codebook.md**
+
