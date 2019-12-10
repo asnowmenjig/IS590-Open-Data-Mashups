@@ -33,7 +33,7 @@ import csv
 
 print('printing to csv')
 for line in dict['C']:
-    with open("OTA_authors_dataset_new.csv", 'w', newline = '', encoding="UTF-8") as outfile_csv: #create csv to hold extracted data
+    with open("ota-2_dataset_raw.csv", 'w', newline = '', encoding="UTF-8") as outfile_csv: #create csv to hold extracted data
         filewriter = csv.writer(outfile_csv, delimiter=',')
         filewriter.writerow(dict['C'])                              #write author name key values to csv
 
