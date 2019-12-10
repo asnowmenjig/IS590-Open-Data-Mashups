@@ -80,3 +80,12 @@ This file contains author attribution data ("Author" and "Count") extracted from
 ### Codebook
 
 See **standardization_codebook_final.md**
+
+
+
+## VERSIONING
+
+- **_raw**: raw form of the extracted data
+- **_cleaned**: repeating author records consolidated; hand-edited for encoding errors
+- **_standard**: organized according to **standardization_phases.md**
+- **_final**: final version used for processing final dataset

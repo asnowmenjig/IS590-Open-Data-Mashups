@@ -25,7 +25,7 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
 1. View page source of catalog (<https://ota.ox.ac.uk/catalogue/index.html>) and download as HTML.
 
-   **Product:** view-source_ota.ox.ac.uk_catalogue_index.html
+   **Product:** view-source_ota.ox.ac.uk_catalogue_index_DO-NOT-EDIT.html
 
 2. Open HTML file in Google Chrome and, using XPATH Helper, extract all data in author column
 
@@ -33,7 +33,7 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
 3. Copy author name results and paste into an Excel spreadsheet.
 
-   **Products:** ota_authors_dataset.xlsx
+   **Products:** ota-2-dataset_raw.xlsx
 
 
 
@@ -76,3 +76,12 @@ This file contains author attribution data ("Author" and "Count") extracted from
 ### Codebook
 
 See **standardization_codebook_final.md**
+
+
+
+## VERSIONING
+
+- **_raw**: raw form of the extracted data
+- **_cleaned**: repeating author records consolidated; hand-edited for encoding errors
+- **_standard**: organized according to **standardization_phases.md**
+- **_final**: final version used for processing final dataset
