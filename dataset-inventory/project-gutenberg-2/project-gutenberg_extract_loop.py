@@ -72,7 +72,7 @@ index_counter = 0               #index counter for values lists
 
 import csv
 
-outfile = open('project-gutenberg-2_dataset.csv', 'w', encoding = 'utf-8', newline = '')        #create csv
+outfile = open('project-gutenberg_dataset_raw.csv', 'w', encoding = 'utf-8', newline = '')        #create csv
 csvout = csv.writer(outfile)
 csvout.writerow(['author', 'birthdate', 'deathdate'])                                           #create column headers
 
