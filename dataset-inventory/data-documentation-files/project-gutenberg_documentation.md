@@ -27,7 +27,7 @@ This file contains author attribution data extracted from the Project Gutenberg 
 
 2. Using Python, extract author names, birthdates, and death dates.
 
-   **Product:** project-gutenberg-2_dataset.csv
+   **Product:** project-gutenberg_dataset_raw.csv
 
 
 
@@ -68,3 +68,13 @@ This file contains author attribution data extracted from the Project Gutenberg 
 ### Codebook
 
 See **standardization_codebook_final.md**
+
+
+
+## VERSIONING
+
+- **_raw**: raw form of the extracted data
+- **_cleaned**: repeating author records consolidated; hand-edited for encoding errors
+- **_standard**: organized according to **standardization_phases.md**
+- **_final**: final version used for processing final dataset
+
