@@ -77,4 +77,3 @@ See **standardization_codebook_final.md**
 - **_cleaned**: repeating author records consolidated; hand-edited for encoding errors
 - **_standard**: organized according to **standardization_phases.md**
 - **_final**: final version used for processing final dataset
-
