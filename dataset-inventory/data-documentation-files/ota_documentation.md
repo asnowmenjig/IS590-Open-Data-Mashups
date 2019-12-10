@@ -33,7 +33,7 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
 3. Copy author name results and paste into an Excel spreadsheet.
 
-   **Products:** ota-2-dataset_raw.xlsx
+   **Products:** ota_dataset_raw.xlsx
 
 
 
