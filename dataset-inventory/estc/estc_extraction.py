@@ -23,7 +23,7 @@ print("writing to csv")
 
 import csv
 
-outfile = open('estc_dataset.csv', 'w', encoding = 'utf-8', newline = '')       #create csv to hold extracted data
+outfile = open('estc_dataset_raw.csv', 'w', encoding = 'utf-8', newline = '')       #create csv to hold extracted data
 csvout = csv.writer(outfile)
 csvout.writerow(['author', 'count'])
 
