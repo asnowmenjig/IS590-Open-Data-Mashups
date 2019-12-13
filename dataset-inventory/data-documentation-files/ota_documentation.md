@@ -41,7 +41,6 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
 ### Required programs/processes:
 
-- XPATH
 - OpenRefine
 - Excel "text to column" feature
 - Hand editing
