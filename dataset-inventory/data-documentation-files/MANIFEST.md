@@ -1,8 +1,8 @@
 ### REPOSITORIES
 
-https://uofi.box.com/s/ensmkfzmmvdanx1y0l08gcz4maafqktm (RDF files, versioning)
-
 https://github.com/asnowmenjig/IS590-Open-Data-Mashups (datasets, documentation, reports, conference materials, summaries)
+
+https://uofi.box.com/s/ensmkfzmmvdanx1y0l08gcz4maafqktm (RDF files, versioning)
 
 
 
@@ -47,11 +47,11 @@ final_notebook-by_fraction_total.ipynb
 
 ### SUMMARY SLIDE
 
-
+- summary-slide.pptx
+- summary-slide.pdf
 
 
 
 ### ASSESSMENT REPORT
-
 
 
