@@ -26,13 +26,21 @@ This file contains author attribution data ("Author" and "Count) extracted from 
 ## COLLECTION PROCESS
 
 1. Navigate to dataset source: <https://search.proquest.com/eebo/index>
+
 2. Define dataset parameters:
 
    - Collection: Early English Books, 1475-1640 (STC), Early English Books, 1641-1700 (Wing)
    - **Language:** English
    - **Publication Date (specific date range):** 1470-1759
+
+   ![image-20191216141313155](C:\Users\Jasmine\AppData\Roaming\Typora\typora-user-images\image-20191216141313155.png)
+
 3. Filter author titles by shorter year chunk
+
 4. View authors.
+
+   ![image-20191216141327385](C:\Users\Jasmine\AppData\Roaming\Typora\typora-user-images\image-20191216141327385.png)
+
 5. Copy “Author” and “Count” columns, paste into Excel
 
    - For full documentation of raw data chunks and links to searches, see: eebo_dataset_raw_DO-NOT-EDIT.xlsx

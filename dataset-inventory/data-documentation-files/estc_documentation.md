@@ -27,6 +27,8 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
 1. Navigate to dataset source: <https://babel.hathitrust.org/cgi/mb?a=listis&c=247770968>
 
+   ![image-20191216141233756](C:\Users\Jasmine\AppData\Roaming\Typora\typora-user-images\image-20191216141233756.png)
+
 2. Download metadata ("Linked Data (JSON)")
 
 3. Remove first object (containing administrative information of the file itself, "id": "https://babel.hathitrust.org/cgi/mb?a=listis;c=") from array and save as **estc_for-parsing.json**.

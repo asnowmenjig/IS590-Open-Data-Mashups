@@ -27,6 +27,8 @@ This file contains author attribution data ("Author" and "Count") extracted from
 
    **URL:** [https://opensyllabus.org/results-list/authors?size=5000&fields=English%20Literature](https://opensyllabus.org/results-list/authors?size=5000&fields=English Literature)
 
+   ![image-20191216141152768](C:\Users\Jasmine\AppData\Roaming\Typora\typora-user-images\image-20191216141152768.png)
+
 2. Using XPATH Helper, highlight author names column and appearances column. Paste into Excel spreadsheet.
 
    **Products:** open-syllabus_dataset.xlsx

@@ -23,6 +23,8 @@ This file contains author attribution data extracted from the Project Gutenberg 
 
 1. Navigate to <http://gutenberg.readingroo.ms/cache/generated/feeds/> and download the TAR archive (**rdf-files.tar.zip**)
 
+   ![image-20191216141122175](C:\Users\Jasmine\AppData\Roaming\Typora\typora-user-images\image-20191216141122175.png)
+
    **Note:** The catalog is updated nightly. The TAR archive used for this dataset reflects the catalog as it was downloaded on 2019/10/8, ‏‎9:27:42 AM.
 
 2. Using Python, extract author names, birthdates, and death dates.

@@ -6,7 +6,11 @@
 
 This data was extracted from the Oxford Text Archive, published by the University of Oxford (<http://ota.ox.ac.uk/>).
 
-[OTA website is down for maintenance as I'm writing this - will update provenance information when site is back up]
+
+
+
+
+**Note:** the Oxford Text Archive transitioned to a new platform in October 2019. This documentation reflects the archive at the date of collection listed below.
 
 ### Contents:
 
@@ -24,6 +28,8 @@ This file contains author attribution data ("Author" and "Count") extracted from
 ## Collection Process:
 
 1. View page source of catalog (<https://ota.ox.ac.uk/catalogue/index.html>) and download as HTML.
+
+   ![image-20191216140904008](C:\Users\Jasmine\AppData\Roaming\Typora\typora-user-images\image-20191216140904008.png)
 
    **Product:** view-source_ota.ox.ac.uk_catalogue_index_DO-NOT-EDIT.html
 
