@@ -53,8 +53,10 @@
 
 - <u>presentation-materials</u>
   - **presentation-slides.pptx**
+  - workflow diagram files
+  - presentation-notes.docx
 - **assessment-report.pdf**
-- **presentation-recording.mp3**
+- **final-presentation-recording.mp4**
 - **resume-entry.pdf**
 - **summary-slide.pdf**
 - **summary-slide.pptx**
