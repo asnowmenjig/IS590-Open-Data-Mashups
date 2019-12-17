@@ -1,6 +1,6 @@
 # MANIFEST
 
-## FOLDER STRUCTURE
+## Zipped Folder Structure
 
 ### KEY
 
@@ -73,11 +73,7 @@
 
 
 
-### MANIFEST.md
-
-
-
-### REPOSITORIES
+## Repositories
 
 **GitHub Repo** link: https://github.com/asnowmenjig/IS590-Open-Data-Mashups (datasets, documentation, reports, conference materials, summaries)
 
