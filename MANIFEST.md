@@ -57,7 +57,7 @@
   - presentation-notes.docx
 - **assessment-report.pdf**
 - **final-presentation-recording.mp4**
-- **resume-entry.pdf**
+- **resume-snippet.pdf**
 - **summary-slide.pdf**
 - **summary-slide.pptx**
 
