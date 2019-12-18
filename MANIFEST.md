@@ -38,7 +38,6 @@
   - **ota_dataset_final.csv** (intermediate dataset)
   - **ota_documentation.md** (dataset documentation)
 - <u>project-gutenberg</u>
-  - <u>bookfiles_2019-10-8</u> (60k RDF files)
   - <u>RETIRED-project-gutenberg</u> (alternate data; not used for final dataset)
   - <u>versioning</u> (previous versions of dataset; raw, cleaned, standardized, and combined data)
   - <u>processing</u> (code and materials for data gathering)
